@@ -1,0 +1,87 @@
+.wrapper {
+    width: 1160px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #ffe27f;
+}
+
+.logo {
+    font-size: 48px;
+}
+
+.menu-useres {
+    padding: 0;
+}
+
+.list-useres {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list-useres a {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-service {
+    padding: 0;
+}
+
+.list-service {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list-service a {
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.info-block {
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
