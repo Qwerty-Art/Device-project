@@ -1,7 +1,22 @@
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    margin: 0;
+}
+
 .wrapper {
     width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 header {
@@ -57,13 +72,34 @@ header {
     font-weight: bold; 
 }
 
+.device-one img {
+    float: left;
+}
 
+.text-slaider-one {
+    float: left;
+    width: 736px;
+}
 
+.h-info {
+    font-size: 47px;
+}
 
+.p-info {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+}
 
+.device-info {
+    
+}
 
-
-
+.list-info {
+    display: inline-block;
+    vertical-align: top;
+}
 
 
 
