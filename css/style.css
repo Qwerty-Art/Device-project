@@ -103,7 +103,6 @@ header {
 .info-block {
     position: relative;
     top: -127px;
-    padding-left: 90px;
     font-family: "Gilroy", "Arial", sans-serif;
     font-weight: bold; 
     background-color: transparent;
@@ -113,8 +112,13 @@ header {
     height: 521px;
 }
 
+.device-one {
+    display: none;
+}
+
 .device-block img {
     float: left;
+    margin-left: 90px;
     margin-right: 123px;
 }
 
@@ -125,8 +129,31 @@ header {
 }
 
 .h-info {
+    position: relative;
+    z-index: 2;
     font-size: 47px;
     margin-bottom: 17px;
+}
+
+.h-info::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 3px;
+    display: block;
+    width: 100px;
+    height: 7px;
+    background-color: #ffffff;
+}
+
+.device-one .h-info::after {
+    content: "01";
+    position: absolute;
+    top: -112px;
+    left: 333px;
+    display: block;
+    font-size: 179px;
+    color: #ffffff;
 }
 
 .p-info {
@@ -184,18 +211,61 @@ header {
     font-weight: 300;
 }
 
+.device-two {
+    display: none;
+}
 
+.device-two img {
+    margin-top: 12px;
+    margin-left: 116px;
+    margin-right: 136px;
+}
 
+.slaider-two .h-info {
+    width: 200px;
+}
 
+.slaider-two .h-info::after {
+    content: "02";
+    position: absolute;
+    top: -112px;
+    left: 309px;
+    display: block;
+    font-size: 179px;
+    color: #ffffff;
+}
 
+.device-three {
+    display: block;
+}
 
+.device-three img {
+    margin-top: 65px;
+    margin-left: 32px;
+    margin-right: 39px;
+}
 
+.slaider-three .p-info::after {
+    content: "03";
+    position: absolute;
+    top: -149px;
+    left: 306px;
+    z-index: 1;
+    display: block;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 179px;
+    color: #ffffff;
+}
 
+.slaider-three .p-info {
+    position: relative;
+    width: 443px;
+}
 
-
-
-
-
+.slaider-three .list-info:first-child {
+    margin-right: 44px;
+}
 
 
 
