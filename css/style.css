@@ -2,11 +2,11 @@ html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
 body {
-    margin: 0;
+    margin-top: 40px;
 }
 
 .wrapper {
-    width: 1160px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -20,6 +20,10 @@ body {
 }
 
 header {
+    position: relative;
+    min-height: 299px;
+    padding-top: 24px;
+    padding-left: 59px;
     font-family: "Gilroy", "Arial", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -28,16 +32,34 @@ header {
 }
 
 .logo {
+    position: absolute;
+    top: -30px;
+    left: 58px;
+    margin: 0;
     font-size: 48px;
 }
 
 .menu-useres {
+    margin-bottom: 37px;
     padding: 0;
+    padding-left: 40px;
 }
 
 .list-useres {
     display: inline-block;
     vertical-align: top;
+}
+
+.list-useres:first-child {
+    margin-right: 418px;
+}
+
+.list-useres:nth-child(2) {
+    margin-right: 234px;
+}
+
+.list-useres:nth-child(3) {
+    margin-right: 61px;
 }
 
 .list-useres a {
@@ -46,11 +68,13 @@ header {
     line-height: 36px;
     font-weight: 300;
     text-decoration: none;
+    text-transform: none;
     color: #000000;
 }
 
 .menu-service {
     padding: 0;
+    letter-spacing: 3.5px;
 }
 
 .list-service {
@@ -58,52 +82,107 @@ header {
     vertical-align: top;
 }
 
+.list-service:first-child {
+    margin-right: 316px;
+}
+
+.list-service:nth-child(2) {
+    margin-right: 28px;
+}
+
+.list-service:nth-child(3) {
+    margin-right: 101px;
+}
+
 .list-service a {
-    font-family: "Gilroy", "Arial", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
     font-size: 18px;
     text-decoration: none;
     color: #000000;
 }
 
 .info-block {
+    position: relative;
+    top: -127px;
+    padding-left: 90px;
     font-family: "Gilroy", "Arial", sans-serif;
     font-weight: bold; 
+    background-color: transparent;
 }
 
-.device-one img {
-    float: left;
+.device-block {
+    height: 521px;
 }
 
-.text-slaider-one {
+.device-block img {
     float: left;
-    width: 736px;
+    margin-right: 123px;
+}
+
+.text-slaider {
+    float: left;
+    width: 548px;
+    padding-top: 38px;
 }
 
 .h-info {
     font-size: 47px;
+    margin-bottom: 17px;
 }
 
 .p-info {
+    width: 475px;
+    margin-bottom: 53px;
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 15px;
     line-height: 30px;
     font-weight: 300;
 }
 
+.btn-info {
+    display: inline-block;
+    margin-bottom: 52px;
+    padding-left: 45px;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #000000;
+}
+
 .device-info {
-    
+    padding: 0;
+    padding-left: 4px;
 }
 
 .list-info {
     display: inline-block;
     vertical-align: top;
+    margin-right: 74px;
 }
 
+.list-info:last-child {
+    margin-right: 0;
+}
 
+.data,
+.text-info {
+    display: block;
+}
 
+.data {
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: 300;
+}
 
+.text-info {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+}
 
 
 
