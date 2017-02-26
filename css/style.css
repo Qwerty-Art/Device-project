@@ -267,6 +267,33 @@ header {
     margin-right: 44px;
 }
 
+.popular-block {
+    padding-top: 121px;
+}
 
+.h-popular {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 124px;
+    margin-right: 72px;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
 
+.h-popular:last-child {
+    margin-right: 0;
+}
+
+.h-popular::before {
+    content: "";
+    position: absolute;
+    top: -195px;
+    display: block;
+    width: 160px;
+    height: 160px;
+    background-color: #ffe27f
+}
 
