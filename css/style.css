@@ -112,17 +112,13 @@ header {
     height: 521px;
 }
 
-.device-one {
-    display: none;
-}
-
 .device-block img {
     float: left;
     margin-left: 90px;
     margin-right: 123px;
 }
 
-.text-slaider {
+.text-slider {
     float: left;
     width: 548px;
     padding-top: 38px;
@@ -211,21 +207,17 @@ header {
     font-weight: 300;
 }
 
-.device-two {
-    display: none;
-}
-
 .device-two img {
     margin-top: 12px;
     margin-left: 116px;
     margin-right: 136px;
 }
 
-.slaider-two .h-info {
+.slider-two .h-info {
     width: 200px;
 }
 
-.slaider-two .h-info::after {
+.slider-two .h-info::after {
     content: "02";
     position: absolute;
     top: -112px;
@@ -235,17 +227,13 @@ header {
     color: #ffffff;
 }
 
-.device-three {
-    display: block;
-}
-
 .device-three img {
     margin-top: 65px;
     margin-left: 32px;
     margin-right: 39px;
 }
 
-.slaider-three .p-info::after {
+.slider-three .p-info::after {
     content: "03";
     position: absolute;
     top: -149px;
@@ -258,13 +246,65 @@ header {
     color: #ffffff;
 }
 
-.slaider-three .p-info {
+.slider-three .p-info {
     position: relative;
     width: 443px;
 }
 
-.slaider-three .list-info:first-child {
+.slider-three .list-info:first-child {
     margin-right: 44px;
+}
+
+.slider-controls {
+    position: absolute;
+    bottom: 183px;
+    right: 12px;
+    z-index: 1000;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+}
+
+.info-block input {
+    display: none;
+}
+
+.slider-controls label {
+    display: inline-block;
+    vertical-align: top;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+    background: #ffffff;
+    border: 3px solid rgba(0,0,0, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+    border: 3px solid #000000;
+}
+
+.slider-controls label:last-child {
+    margin-right: 0;
+}
+
+.device-block {
+    display: none;
+}
+
+#btn-1:checked ~ .device-block:nth-of-type(1) {
+    display: block;
+}
+
+#btn-2:checked ~ .device-block:nth-of-type(2) {
+    display: block;
+}
+
+#btn-3:checked ~ .device-block:nth-of-type(3) {
+    display: block;
 }
 
 .popular-block {
