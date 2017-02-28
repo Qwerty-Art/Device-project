@@ -309,6 +309,7 @@ header {
 
 .popular-block {
     padding-top: 121px;
+    margin-bottom: 68px;
 }
 
 .h-popular {
@@ -336,4 +337,89 @@ header {
     height: 160px;
     background-color: #ffe27f
 }
+
+.services-block {
+    min-height: 388px;
+    background-image: linear-gradient(#ffffff 100px, #e6e6e6 100px);
+    border: 1px solid black;
+}
+
+.services-left input {
+    display: ;
+}
+
+.services-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 283px;
+    min-height: 319px;
+    padding-top: 90px;
+    border-right: 7px solid #000000;
+    letter-spacing: 4px;
+}
+
+.services-left label {
+    display: block;
+    width: 276px;
+    margin-bottom: 44px;
+    padding-left: 23px;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#par-1:checked ~ .services-left label[for="par-1"],
+#par-2:checked ~ .services-left label[for="par-2"],
+#par-3:checked ~ .services-left label[for="par-3"] {
+    color: #ffe27f;
+    background-color: #000000;
+}
+
+.services-right {
+    display: none;
+    vertical-align: top;
+    width: 870px;
+    padding-top: 26px;
+    padding-left: 113px;
+}
+
+#par-1:checked ~ .services-right:nth-of-type(1) {
+    display: inline-block;
+}
+
+#par-2:checked ~ .services-right:nth-of-type(2) {
+    display: inline-block;
+}
+
+#par-3:checked ~ .services-right:nth-of-type(3) {
+    display: inline-block;
+}
+
+
+
+.h-services {
+    margin-bottom: 30px;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 49px;
+}
+
+.p-services {
+    width: 429px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.services-right:nth-of-type(3) .p-services {
+     width: 416px;
+}
+
+
+
 
