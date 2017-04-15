@@ -1,0 +1,377 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-action-camera {
+    width: 71px;
+    height: 87px;
+    background-position: -50px -50px;
+}
+
+.sprite-action-camera-active {
+    width: 71px;
+    height: 87px;
+    background-position: -221px -50px;
+}
+
+.sprite-cart {
+    width: 12px;
+    height: 12px;
+    background-position: -392px -50px;
+}
+
+.sprite-cart-active {
+    width: 12px;
+    height: 12px;
+    background-position: -504px -50px;
+}
+
+.sprite-cart-active-footer {
+    width: 12px;
+    height: 12px;
+    background-position: -616px -50px;
+}
+
+.sprite-cart-focus {
+    width: 12px;
+    height: 12px;
+    background-position: -728px -50px;
+}
+
+.sprite-cart-focus-footer {
+    width: 12px;
+    height: 12px;
+    background-position: -840px -50px;
+}
+
+.sprite-cart-footer {
+    width: 12px;
+    height: 12px;
+    background-position: -952px -50px;
+}
+
+.sprite-compare {
+    width: 10px;
+    height: 10px;
+    background-position: -1064px -50px;
+}
+
+.sprite-compare-active {
+    width: 10px;
+    height: 10px;
+    background-position: -1174px -50px;
+}
+
+.sprite-compare-active-footer {
+    width: 10px;
+    height: 10px;
+    background-position: -1064px -160px;
+}
+
+.sprite-compare-focus {
+    width: 10px;
+    height: 10px;
+    background-position: -1174px -160px;
+}
+
+.sprite-compare-focus-footer {
+    width: 10px;
+    height: 10px;
+    background-position: -50px -270px;
+}
+
+.sprite-compare-footer {
+    width: 10px;
+    height: 10px;
+    background-position: -160px -270px;
+}
+
+.sprite-dji {
+    width: 260px;
+    height: 100px;
+    background-position: -270px -270px;
+}
+
+.sprite-dji-focus {
+    width: 260px;
+    height: 100px;
+    background-position: -630px -270px;
+}
+
+.sprite-facebook {
+    width: 39px;
+    height: 38px;
+    background-position: -990px -270px;
+}
+
+.sprite-facebook-active {
+    width: 39px;
+    height: 38px;
+    background-position: -1129px -270px;
+}
+
+.sprite-facebook-focus {
+    width: 39px;
+    height: 38px;
+    background-position: -50px -408px;
+}
+
+.sprite-fitness-bracele-active {
+    width: 107px;
+    height: 65px;
+    background-position: -990px -408px;
+}
+
+.sprite-fitness-bracelet {
+    width: 107px;
+    height: 65px;
+    background-position: -50px -573px;
+}
+
+.sprite-gopro {
+    width: 260px;
+    height: 100px;
+    background-position: -257px -470px;
+}
+
+.sprite-gopro-focus {
+    width: 260px;
+    height: 100px;
+    background-position: -617px -470px;
+}
+
+.sprite-htmlacademy {
+    width: 27px;
+    height: 34px;
+    background-position: -977px -573px;
+}
+
+.sprite-htmlacademy-active {
+    width: 27px;
+    height: 34px;
+    background-position: -1104px -573px;
+}
+
+.sprite-htmlacademy-focus {
+    width: 27px;
+    height: 34px;
+    background-position: -257px -707px;
+}
+
+.sprite-insta {
+    width: 39px;
+    height: 38px;
+    background-position: -384px -707px;
+}
+
+.sprite-insta-active {
+    width: 39px;
+    height: 38px;
+    background-position: -523px -707px;
+}
+
+.sprite-insta-focus {
+    width: 39px;
+    height: 38px;
+    background-position: -662px -707px;
+}
+
+.sprite-monopod {
+    width: 86px;
+    height: 117px;
+    background-position: -801px -707px;
+}
+
+.sprite-monopod-active {
+    width: 86px;
+    height: 117px;
+    background-position: -987px -707px;
+}
+
+.sprite-nav-arrow {
+    width: 4px;
+    height: 7px;
+    background-position: -1197px -408px;
+}
+
+.sprite-plus {
+    width: 16px;
+    height: 16px;
+    background-position: -1173px -707px;
+}
+
+.sprite-plus-active {
+    width: 16px;
+    height: 16px;
+    background-position: -50px -823px;
+}
+
+.sprite-plus-focus {
+    width: 16px;
+    height: 16px;
+    background-position: -1173px -823px;
+}
+
+.sprite-quadrocopter-active {
+    width: 132px;
+    height: 69px;
+    background-position: -166px -924px;
+}
+
+.sprite-quadrupter {
+    width: 132px;
+    height: 69px;
+    background-position: -398px -924px;
+}
+
+.sprite-search {
+    width: 16px;
+    height: 16px;
+    background-position: -50px -939px;
+}
+
+.sprite-smart-watch {
+    width: 56px;
+    height: 98px;
+    background-position: -630px -924px;
+}
+
+.sprite-smart-watch-active {
+    width: 56px;
+    height: 98px;
+    background-position: -786px -924px;
+}
+
+.sprite-sort-down {
+    width: 17px;
+    height: 9px;
+    background-position: -942px -939px;
+}
+
+.sprite-sort-down-active {
+    width: 17px;
+    height: 9px;
+    background-position: -1059px -939px;
+}
+
+.sprite-sort-down-focus {
+    width: 17px;
+    height: 9px;
+    background-position: -1176px -939px;
+}
+
+.sprite-sort-up {
+    width: 17px;
+    height: 9px;
+    background-position: -942px -1048px;
+}
+
+.sprite-sort-up-active {
+    width: 17px;
+    height: 9px;
+    background-position: -1059px -1048px;
+}
+
+.sprite-sort-up-focus {
+    width: 17px;
+    height: 9px;
+    background-position: -1176px -1048px;
+}
+
+.sprite-sp-gadgets {
+    width: 260px;
+    height: 100px;
+    background-position: -1284px -50px;
+}
+
+.sprite-sp-gadgets-focus {
+    width: 260px;
+    height: 100px;
+    background-position: -1301px -250px;
+}
+
+.sprite-tick {
+    width: 12px;
+    height: 7px;
+    background-position: -1301px -450px;
+}
+
+.sprite-twitter {
+    width: 38px;
+    height: 38px;
+    background-position: -1413px -450px;
+}
+
+.sprite-twitter-active {
+    width: 38px;
+    height: 38px;
+    background-position: -1289px -588px;
+}
+
+.sprite-twitter-focus {
+    width: 38px;
+    height: 38px;
+    background-position: -1427px -588px;
+}
+
+.sprite-user {
+    width: 13px;
+    height: 12px;
+    background-position: -1551px -450px;
+}
+
+.sprite-user-active {
+    width: 13px;
+    height: 12px;
+    background-position: -1289px -726px;
+}
+
+.sprite-user-active-footer {
+    width: 13px;
+    height: 12px;
+    background-position: -1402px -726px;
+}
+
+.sprite-user-focus {
+    width: 13px;
+    height: 12px;
+    background-position: -1515px -726px;
+}
+
+.sprite-user-focus-footer {
+    width: 13px;
+    height: 12px;
+    background-position: -1293px -838px;
+}
+
+.sprite-user-footer {
+    width: 13px;
+    height: 12px;
+    background-position: -1406px -838px;
+}
+
+.sprite-vive {
+    width: 260px;
+    height: 100px;
+    background-position: -1293px -950px;
+}
+
+.sprite-vive-focus {
+    width: 260px;
+    height: 100px;
+    background-position: -50px -1150px;
+}
+
+.sprite-vr {
+    width: 97px;
+    height: 55px;
+    background-position: -410px -1150px;
+}
+
+.sprite-vr-active {
+    width: 97px;
+    height: 55px;
+    background-position: -607px -1150px;
+}

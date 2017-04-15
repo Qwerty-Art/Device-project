@@ -40,8 +40,22 @@ header {
     font-size: 48px;
 }
 
-.menu-useres {
-    margin-bottom: 37px;
+.logo-header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-header a:hover {
+    color: #444444;
+}
+
+.logo-header a:active {
+    color: #666666;
+}
+
+
+header .menu-useres {
+    margin-bottom: 38px;
     padding: 0;
     padding-left: 40px;
 }
@@ -64,6 +78,8 @@ header {
 }
 
 .list-useres a {
+    display: inline-block;
+    vertical-align: top;
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 15px;
     line-height: 36px;
@@ -72,6 +88,18 @@ header {
     text-transform: none;
     color: #000000;
 }
+
+.user-icon::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 14px;
+    height: 13px;
+    background-image: url('../img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: 1551px 450px;
+}
+
 
 .menu-service {
     padding: 0;
@@ -99,6 +127,46 @@ header {
     font-size: 18px;
     text-decoration: none;
     color: #000000;
+}
+
+.sub-menu-show:hover .block-sub-menu {
+    display: table;
+}
+
+.block-sub-menu {
+    display: none;
+    position: absolute;
+    left: 0px;
+    width: 1160px;
+    padding-top: 22px;
+    padding-left: 60px;
+    padding-bottom: 34px;
+    background-color: #ffe393;
+    z-index: 3;
+}
+
+.sub-menu {
+    display: table-row-group;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: normal;    
+}
+
+.sub-list-catalog {
+    display: table-cell;    
+}
+
+.column-1 {
+    display: table-column;
+    width: 240px;
+}
+
+.column-2 {
+    display: table-column;
+    width: 200px;
 }
 
 .info-block {
@@ -313,7 +381,7 @@ header {
     margin-bottom: 68px;
 }
 
-.h-popular {
+.a-popular {
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -323,13 +391,15 @@ header {
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
+    text-decoration: none;
+    color: #000000;
 }
 
-.h-popular:last-child {
+.a-popular:last-child {
     margin-right: 0;
 }
 
-.h-popular::before {
+.a-popular::before {
     content: "";
     position: absolute;
     top: -195px;
@@ -548,10 +618,20 @@ footer {
 }
 
 .footer-logo {
-    position: relative;
     margin-bottom: 17px;
     font-size: 48px;
     color: #ffe27f;
+}
+
+.footer-logo::after {
+    position: absolute;
+    bottom: 79px;
+    left: 20px;
+    display: block;
+    content: "";
+    width: 80px;
+    height: 7px;
+    background-color: #ffe27f;
 }
 
 .address {
@@ -603,6 +683,8 @@ footer {
 }
 
 .menu-useres {
+    margin-bottom: 31px;
+    padding-left: 16px;
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 15px;
     line-height: 36px;
@@ -614,7 +696,13 @@ footer {
 
 .list-footer-useres {
     display: inline-block;
-    vertical-align: top;  
+    vertical-align: top;
+    padding-left: 36px;
+    margin-right: 24px;
+}
+
+.list-footer-useres:last-child {
+    margin-right: 0;
 }
 
 .list-footer-useres a {
@@ -623,14 +711,25 @@ footer {
 }
 
 .tel {
+    display: block;
+    padding-right: 8px;
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 15px;
     line-height: 36px;
     font-weight: 300;
     text-transform: none;
+    text-align: right;
     color: #ffffff;
 }
 
+.a-logo {
+    position: absolute;
+    bottom: 68px;
+    right: 18px;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
 
 
 
