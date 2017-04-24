@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Catalog</title>
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <h1 class="logo-header"><a href="#">Device</a></h1>
+               <ul class="menu-useres">
+                   <li class="list-useres">
+                       <a class="a-list-useres" href="#">Поиск по сайту</a>
+                    </li>
+                   <li class="list-useres">
+                       <a class="a-list-useres" href="#">Войти</a>
+                   </li>
+                   <li class="compare-icon list-useres">
+                       <a class="a-list-useres" href="#">Сравнить</a>
+                   </li>
+                   <li class="cart-icon list-useres">
+                       <a class="a-list-useres" href="#">Корзина</a>
+                   </li>
+               </ul>
+               <ul class="menu-service">
+                   <li class="sub-menu-show list-service">
+                       <a href="#">Каталог товаров</a>
+                       <div class="block-sub-menu">
+                       <div class="column-1"></div>
+                       <div class="column-2"></div>
+                       <div class="column-3"></div>
+                       <ul class="sub-menu">
+                           <li class="sub-list-catalog">Виртуальная реальность</li>
+                           <li class="sub-list-catalog">Фитнесс-браслеты</li>
+                           <li class="sub-list-catalog">Квадрокоптеры</li>
+                       </ul>
+                       <ul class="sub-menu">
+                           <li class="sub-list-catalog">Моноподы для селфи</li>
+                           <li class="sub-list-catalog">Умные часы</li>
+                       </ul>
+                       <ul class="sub-menu">
+                           <li class="sub-list-catalog">Экшн-камеры</li>
+                       </ul>
+                       </div>
+                   </li>
+                   <li class="list-service">
+                       <a href="#">Доставка</a>
+                   </li>
+                   <li class="list-service">
+                       <a href="#">Гарантия</a>
+                   </li>
+                   <li class="list-service">
+                       <a href="#">Контакты</a>
+                   </li>
+               </ul>
+           </header>
+        <main>
+            <h2>
+                Моноподы для селфи
+            </h2>
+            <div class="breadcrumbs">
+                <a href="/index.html">Главная</a>
+                <a href="#">Каталог товаров</a>
+                <a>Моноподы для селфи</a>
+            </div>
+            <div class="filter-result">
+                <div class="filter">
+                    <span>Фильтр:</span>
+                    <form>
+                        <fieldset>
+                            <legend>Стоимость</legend>                            
+                        </fieldset>
+                        <fieldset>
+                            <legend>Цвет</legend>
+                            <input type="checkbox" id="color-black" name="color" value="black" checked>
+                            <label for="color-black">Черный</label>
+                            <input type="checkbox" id="color-white" name="color" value="white">
+                            <label for="color-white">Белый</label>
+                            <input type="checkbox" id="color-blue" name="color" value="blue" checked>
+                            <label for="color-blue">Синий</label>
+                            <input type="checkbox" id="color-red" name="color" value="red" checked>
+                            <label for="color-red">Красный</label>
+                            <input type="checkbox" id="color-pink" name="color" value="pink">
+                            <label for="color-pink">Розовый</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Bluethooth</legend>
+                            <input type="radio" id="ans-yes" name="bluethooth" value="yes" checked>
+                            <label for="ans-yes">Есть</label>
+                            <input type="radio" id="ans-no" name="bluethooth" value="no">
+                            <label for="ans-no">Нет</label>
+                        </fieldset>
+                        <button type="submit">Показать</button>
+                    </form>
+                </div>
+                <div class="result"></div>
+            </div>
+        </main>
+        <div class="wrapper-footer">
+            <footer class="clearfix">
+                   <div class="footer-adress">
+                       <h2 class="footer-logo">Device</h2>
+                       <span class="address">г. Москва, ул. Строителей, 15</span>
+                   </div>
+                   <div class="footer-serves">
+                       <ul class="serves">
+                           <li class="list-footer-serves">
+                               <a href="#">Доставка</a>
+                           </li>
+                           <li class="list-footer-serves">
+                               <a href="#">Гарантия</a>
+                           </li>
+                           <li class="list-footer-serves">
+                               <a href="#">Контакты</a>
+                           </li>
+                       </ul>
+                       <ul class="footer-social">
+                           <li class="list-social">
+                               <a class="social-fb" href="https://ru-ru.facebook.com/">FB</a>
+                           </li>
+                           <li class="list-social">
+                               <a class="social-inst" href="https://www.instagram.com/">inst</a>
+                           </li>
+                           <li class="list-social">
+                               <a class="social-tw" href="#">tw</a>
+                           </li>
+                       </ul>
+                   </div>
+                   <div class="footer-useres">
+                       <ul class="menu-useres">
+                           <li class="list-footer-useres">
+                               <a class="a-list-footer-useres" href="#">Войти</a>
+                           </li>
+                           <li class="list-footer-useres">
+                               <a class="a-list-footer-useres" href="#">Сравнить</a>
+                           </li>
+                           <li class="list-footer-useres">
+                               <a class="a-list-footer-useres" href="#">Корзина</a>
+                           </li>
+                       </ul>
+                       <span class="tel">Тел.:+7(495) 495-95-95</span>
+                       <a class="a-logo" href="htmlacademy.ru">
+                           htmlacademy.ru
+                       </a>
+                   </div>
+            </footer>
+       </div>   
+    </body>
+</html>

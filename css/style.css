@@ -20,7 +20,7 @@ body {
     clear: both;
 }
 
-header {
+.home_page {
     position: relative;
     min-height: 299px;
     padding-top: 24px;
@@ -77,7 +77,8 @@ header .menu-useres {
     margin-right: 61px;
 }
 
-.list-useres a {
+.a-list-useres {
+    position: relative;
     display: inline-block;
     vertical-align: top;
     font-family: "Open Sans", "Arial", sans-serif;
@@ -89,17 +90,69 @@ header .menu-useres {
     color: #000000;
 }
 
-.user-icon::before {
-    position: absolute;
+.a-list-useres::before {
     content: "";
     display: block;
-    width: 14px;
-    height: 13px;
-    background-image: url('../img/sprite.png');
+    position: absolute;
+    background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
-    background-position: 1551px 450px;
 }
 
+.list-useres:first-child .a-list-useres::before {
+    width: 16px;
+    height: 16px;
+    top: 10px;
+    left: -30px;
+    background-position: -50px -939px
+}
+
+.list-useres:nth-child(2) .a-list-useres::before {
+    width: 13px;
+    height: 12px;
+    top: 12px;
+    left: -20px;
+    background-position: -1551px -450px;
+}
+
+.list-useres:nth-child(2) .a-list-useres:hover:before {
+    background-position: -1515px -726px;
+}
+
+.list-useres:nth-child(2) .a-list-useres:active:before {
+    background-position: -1289px -726px;
+}
+
+.list-useres:nth-child(3) .a-list-useres::before {
+    width: 10px;
+    height: 10px;
+    top: 14px;
+    left: -20px;
+    background-position: -1064px -50px
+}
+
+.list-useres:nth-child(3) .a-list-useres:hover:before {
+    background-position: -1174px -160px;
+}
+
+.list-useres:nth-child(3) .a-list-useres:active:before {
+    background-position: -1174px -50px;
+}
+
+.list-useres:nth-child(4) .a-list-useres::before {
+    width: 12px;
+    height: 12px;
+    top: 12px;
+    left: -18px;
+    background-position: -392px -50px;
+}
+
+.list-useres:nth-child(4) .a-list-useres:hover:before {
+    background-position: -728px -50px;
+}
+
+.list-useres:nth-child(4) .a-list-useres:active:before {
+    background-position: -504px -50px;
+}
 
 .menu-service {
     padding: 0;
@@ -409,6 +462,91 @@ header .menu-useres {
     background-color: #ffe27f
 }
 
+.a-popular::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 97px;
+    height: 55px;
+    top: -145px;
+    left: 30px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -410px -1150px;
+}
+
+.a-popular:hover:before {
+    background-color: #ffc600;
+}
+
+.vr-tuning:active:after {
+    background-position: -607px -1150px;
+}
+
+.a-popular:active:before {
+    background-color: #ffc600;
+}
+
+.a-popular:nth-child(2):after {
+    width: 86px;
+    height: 117px;
+    top: -170px;
+    left: 40px;
+    background-position: -801px -707px;
+}
+
+.mp-tuning:active:after {
+    background-position: -987px -707px;
+}
+
+.a-popular:nth-child(3):after {
+    width: 71px;
+    height: 87px;
+    top: -160px;
+    left: 50px;
+    background-position: -50px -50px;
+}
+
+.camera-tuning:active:after {
+    background-position: -221px -50px;
+}
+
+.a-popular:nth-child(4):after {
+    width: 107px;
+    height: 65px;
+    top: -145px;
+    left: 25px;
+    background-position: -50px -573px;
+}
+
+.fb-tuning:active:after {
+background-position: -990px -408px;
+}
+
+.a-popular:nth-child(5):after {
+    width: 56px;
+    height: 98px;
+    top: -165px;
+    left: 50px;
+    background-position: -630px -924px;
+}
+
+.sw-tuning:active:after {
+    background-position: -786px -924px;
+}
+
+.a-popular:nth-child(6):after {
+    width: 132px;
+    height: 69px;
+    top: -150px;
+    left: 15px;
+    background-position: -398px -924px;
+}
+
+.quad-tuning:active:after {
+    background-position: -166px -924px;
+}
+
 .services-block {
     min-height: 388px;
     margin-bottom: 95px;
@@ -479,13 +617,50 @@ header .menu-useres {
      width: 416px;
 }
 
-.logotypes-block img {
+.logotypes-block .a-logotypes-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    height: 100px;
     margin-right: 36px;
-
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
 }
 
-.logotypes-block img:last-child {
+.logotypes-block .a-logotypes-block:last-child {
     margin-right: 0;
+}
+
+.logo-djl {
+    background-position: -270px -270px;
+}
+
+.logo-djl:hover {
+    background-position: -630px -270px;
+}
+
+.logo-sp-gadgets {
+    background-position: -1284px -50px;
+}
+
+.logo-sp-gadgets:hover {
+    background-position: -1301px -250px;
+}
+
+.logo-go-pro {
+    background-position: -257px -470px;
+}
+
+.logo-go-pro:hover {
+    background-position: -617px -470px;
+}
+
+.logo-vive {
+    background-position: -1293px -950px;
+}
+
+.logo-vive:hover {
+    background-position: -50px -1150px;
 }
 
 .contact-block {
@@ -656,6 +831,14 @@ footer {
     color: #ffffff;
 }
 
+.list-footer-serves a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.list-footer-serves a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
 .footer-social {
     list-style: none;
     font-size: 18px;
@@ -664,12 +847,54 @@ footer {
 
 .list-social {
     display: inline-block;
-    vertical-align: top;    
+    vertical-align: top;  
 }
 
 .list-social a {
+    display: block;
+    width: 39px;
+    height: 38px;
     text-decoration: none;
     color: #ffffff;
+    font-size: 0;    
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.social-fb {
+    background-position: -990px -270px;
+}
+
+.social-fb:hover {
+    background-position: -50px -408px;
+}
+
+.social-fb:active {
+    background-position: -1129px -270px;
+}
+
+.social-inst {
+    background-position: -384px -707px;
+}
+
+.social-inst:hover {
+    background-position: -662px -707px;
+}
+
+.social-inst:active {
+    background-position: -523px -707px;
+}
+
+.social-tw {
+    background-position: -1413px -450px;
+}
+
+.social-tw:hover {
+    background-position: -1427px -588px;
+}
+
+.social-tw:active {
+    background-position: -1289px -588px;
 }
 
 .menu-useres {
@@ -696,8 +921,66 @@ footer {
 }
 
 .list-footer-useres a {
+    position: relative;
+    display: block;
     text-decoration: none;
     color: #ffffff;
+}
+
+.list-footer-useres a::before {
+    position: absolute;
+    content: "";
+    display: block;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.list-footer-useres:nth-child(1) a::before {
+    width: 13px;
+    height: 12px;
+    top: 12px;
+    left: -25px;
+    background-position: -1406px -838px;
+}
+
+.list-footer-useres:nth-child(1) a:hover:before {
+    background-position: -1293px -838px;
+}
+
+.list-footer-useres:nth-child(1) a:active:before {
+    background-position: -1402px -726px;
+}
+
+.list-footer-useres:nth-child(2) a::before {
+    width: 10px;
+    height: 10px;
+    top: 14px;
+    left: -20px;
+    background-position: -160px -270px;
+}
+
+.list-footer-useres:nth-child(2) a:hover:before {
+    background-position: -50px -270px;
+}
+
+.list-footer-useres:nth-child(2) a:active:before {
+    background-position: -1064px -160px;
+}
+
+.list-footer-useres:nth-child(3) a::before {
+    width: 12px;
+    height: 12px;
+    top: 12px;
+    left: -20px;
+    background-position: -952px -50px;
+}
+
+.list-footer-useres:nth-child(3) a:hover:before {
+    background-position: -840px -50px;
+}
+
+.list-footer-useres:nth-child(3) a:active:before {
+    background-position: -616px -50px;
 }
 
 .tel {
@@ -717,10 +1000,23 @@ footer {
     bottom: 68px;
     right: 18px;
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 34px;
+    font-size: 0;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -977px -573px; 
 }
 
+.a-logo:hover {
+    background-position: -257px -707px;
+}
+
+.a-logo:active {
+    background-position: -1104px -573px;
+}
+
+/* device-catalog */
 
 
 
