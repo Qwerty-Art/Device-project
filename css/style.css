@@ -20,7 +20,7 @@ body {
     clear: both;
 }
 
-.home_page {
+.home-page {
     position: relative;
     min-height: 299px;
     padding-top: 24px;
@@ -1016,7 +1016,104 @@ footer {
     background-position: -1104px -573px;
 }
 
-/* device-catalog */
+/* device-catalog!!!!!!!!!!!! */
 
+/* header */
+
+.catalog-page {
+    position: relative;
+    min-height: 186px;
+    padding-top: 24px;
+    padding-left: 59px;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #ffe27f;
+}
+
+.main-catalog h2 {
+    font-size: 47px;
+    line-height: 49px;
+}
+
+.breadcrumbs a {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 36px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.main-catalog .filter-result {
+    display: flex;
+}
+
+.filter-result .filter-block {
+    width: 348px;
+    padding-left: 81px;
+    background-color: #efefef;
+}
+
+.filter-block span {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 348px;
+    height: 70px;
+    left: -81px;
+    padding-top: 30px;
+    padding-left: 81px; 
+    font-family: "Gilroy", "Arial", sans-serif;;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+/* result-block */
+
+.result-block {
+    flex-basis: 854px;
+}
+
+.result-block .sorting {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.sorting span {
+    height: 70px;
+    margin-right: 53px;
+    padding-top: 30px;
+    padding-left: 74px;
+    font-family: "Gilroy", "Arial", sans-serif;;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sorting-category li,
+.sorting-up-down li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sorting .sorting-up-down {
+    margin-left: auto;
+}
+
+.result-block .result {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result article:nth-child(2n-1) {
+    margin-left: auto;
+    margin-right: 40px;
+}
 
 
