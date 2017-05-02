@@ -1076,8 +1076,30 @@ footer {
     background-color: rgba(0, 0, 0, 0.08);
 }
 
+/* filter-block > filter-price */
+
 .filter-price {
     border:none;
+    margin-bottom: 30px
+}
+
+.filter-price legend {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Gilroy", "Arial", sans-serif;;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.filter-price legend::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: -20px;
+    width: 200px;
+    height: 2px;
+    background-color: #000000;
 }
 
 .filter-price .range-control {
@@ -1133,6 +1155,108 @@ footer {
     font-size: 14px;
     background-color: transparent;
     color: rgba(0, 0, 0, 0.2);
+}
+
+/* filter-block > filter-color */
+
+.filter-color {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.filter-color legend::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: -20px;
+    width: 200px;
+    height: 2px;
+    background-color: #000000;
+}
+
+.filter-color ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+}
+
+.filter-color li {
+    list-style: none;
+}
+
+.filter-color input {
+    display: none;
+}
+
+.filter-color label {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.filter-color input + label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.filter-color input + label::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 10px;
+    left: -35px;
+    width: 23px;
+    height: 23px;
+    background-color: #dcdcdc;
+}
+
+.filter-color input + label:hover:before {
+    background-color: #cfcfcf;
+}
+
+.filter-color input + label:active:before {
+    background-color: #c5c5c5;
+}
+
+.filter-color input:checked + label::before {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -1295px -442px;
+}
+
+/* filter-block > filter-complement */
+
+.filter-complement {
+    border: none;
+}
+
+.filter-complement input {
+    display: none;
+}
+
+.filter-complement label {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.filter-complement input + label {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+}
+
+.filter-complement input + label::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #000000;
+    border-radius: 50%;
 }
 
 /* result-block */
