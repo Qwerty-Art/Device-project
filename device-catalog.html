@@ -67,9 +67,22 @@
             <div class="filter-result wrapper">
                 <div class="filter-block">
                     <span>Фильтр:</span>
-                    <form>
-                        <fieldset>
-                            <legend>Стоимость</legend>                            
+                    <form action="#" method="get">
+                        <fieldset class="filter-price">
+                            <legend>Стоимость</legend>
+                            <div class="range-filter">
+                                <div class="range-control">
+                                    <div class="scale">
+                                        <div class="bar"></div>
+                                    </div>
+                                    <div class="toggle toggle-min"></div>
+                                    <div class="toggle toggle-max"></div>
+                                </div>
+                                <div class="price-control">
+                                    <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                                    <label class="max-price">до <input name="max-price" type="text" value="5000"></label>
+                                </div>     
+                            </div>                       
                         </fieldset>
                         <fieldset>
                             <legend>Цвет</legend>
@@ -119,28 +132,36 @@
                     </div>
                     <div class="result">
                         <article class="catalog-card">
-                            <img src="/img/" width="360" height="380" alt="Любительская селфи-палка">
+                            <a href="#">
+                                <img src="/img/devce-catalog/amature-self-stick.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                            </a>
                             <ul>
                                 <li>Любительская селфи-палка</li>
                                 <li>500 руб.</li>
                             </ul>
                         </article>
                         <article class="catalog-card">
-                            <img src="#" width="360" height="380" alt="Профессиональная селфи-палка ">
+                            <a href="#">
+                                <img src="/img/devce-catalog/professional-self-stick.jpg" width="360" height="380" alt="Профессиональная селфи-палка ">
+                            </a>
                             <ul>
                                 <li>Профессиональная <br> селфи-палка </li>
                                 <li>1500 руб.</li>
                             </ul>
                         </article>
                         <article class="catalog-card">
-                            <img src="#" width="360" height="380" alt="Непотопляемая селфи-палка">
+                            <a href="#">
+                                <img src="/img/devce-catalog/unsinkable-self-stick.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+                            </a>
                             <ul>
                                 <li>Непотопляемая селфи-палка</li>
                                 <li>2500 руб.</li>
                             </ul>
                         </article>
                         <article class="catalog-card">
-                            <img src="#" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+                            <a href="#">
+                                <img src="/img/devce-catalog/self-stick-follow-me.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+                            </a>
                             <ul>
                                 <li>Селфи-палка «Следуй за мной»</li>
                                 <li>4900 руб.</li>

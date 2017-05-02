@@ -1065,6 +1065,7 @@ footer {
     width: 348px;
     height: 70px;
     left: -81px;
+    margin-bottom: 69px;
     padding-top: 30px;
     padding-left: 81px; 
     font-family: "Gilroy", "Arial", sans-serif;;
@@ -1073,6 +1074,65 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.08);
+}
+
+.filter-price {
+    border:none;
+}
+
+.filter-price .range-control {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.range-control .scale {
+    width: 200px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.range-control .bar {
+    width: 60%;
+    height: 2px;
+    background-color: #72ca00;
+}
+
+.range-control .toggle {
+    position: absolute;
+    top: -5px;
+    width: 13px;
+    height: 13px;
+    background-color: #efefef;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.range-control .toggle-max {
+    left: 120px;
+}
+
+.prce-control {
+    font-size: 0;
+}
+
+.price-control label {
+    display: inline-block;
+    width: 40%;
+    font-family: "Gilroy", "Arial", sans-serif;
+    line-height: 22px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.price-control input {
+    width: 60px;
+    border: none;
+    font-family: "Gilroy", "Arial", sans-serif;
+    line-height: 22px;
+    font-size: 14px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.2);
 }
 
 /* result-block */
@@ -1095,7 +1155,7 @@ footer {
     margin-right: 53px;
     padding-top: 30px;
     padding-left: 74px;
-    font-family: "Gilroy", "Arial", sans-serif;;
+    font-family: "Gilroy", "Arial", sans-serif;
     font-size: 16px;
     line-height: 19px;
     font-weight: bold;
@@ -1217,8 +1277,10 @@ footer {
 .filter-result .result-navigation {
     display: flex;
     justify-content: space-between;
+    width: 760px;
     height: 70px;
     margin-bottom: 73px;
+    margin-left: auto;
     padding-left: 30px;
     padding-right: 30px;
     align-items: center;    
